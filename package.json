@@ -1,0 +1,16 @@
+{
+  "name": "lua-ai-renamer-bot",
+  "version": "1.0.0",
+  "description": "AI Lua Renamer Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "register": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "openai": "^4.20.1"
+  }
+}
